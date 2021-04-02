@@ -34,6 +34,10 @@
 #define SF_INPUT   1
 #define SF_OUTPUT  2
 
+#ifndef M_PI
+#define M_PI 3.14159265358979323846264338327
+#endif
+
 static void activateOnePollFilter(LADSPA_Handle Instance);
 static void runOnePollLowPassFilter(LADSPA_Handle Instance,
                                     unsigned long SampleCount);

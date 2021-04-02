@@ -56,6 +56,10 @@
 #define ENC_OUT_U 11
 #define ENC_OUT_V 12
 
+#ifndef M_PI
+#define M_PI 3.14159265358979323846264338327
+#endif
+
 /*****************************************************************************/
 
 static void runBFormatEncoder(LADSPA_Handle Instance,
