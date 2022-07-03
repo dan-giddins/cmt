@@ -35,6 +35,14 @@
 #include <cstdlib>
 #include <cstring>
 
+#include <math.h>
+#ifndef M_PI
+#define M_PI (3.14159265358979323846)
+#endif
+#ifndef M_LN2
+#define M_LN2 (0.69314718055994530942)
+#endif
+
 /*****************************************************************************/
 
 #include "cmt.h"
